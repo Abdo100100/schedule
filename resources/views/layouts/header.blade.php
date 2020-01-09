@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from dreamguys.co.in/preclinic/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 26 Dec 2019 17:57:32 GMT -->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-    <title>Preclinic - Medical & Hospital - Bootstrap 4 Admin Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/e.png') }}">
+    <title>Futinndve - Pharma</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.min.css')}}">
@@ -17,3 +15,4 @@
 		<script src="assets/js/respond.min.js"></script>
 	<![endif]-->
 </head>
+

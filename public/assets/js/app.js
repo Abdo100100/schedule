@@ -239,6 +239,7 @@ $(document).ready(function($) {
 	}
 	
 	// Small Sidebar
+	/*
 	if(screen.width >= 992) {
 		$(document).on('click', '#toggle_btn', function() {
 			if($('body').hasClass('mini-sidebar')) {
@@ -265,4 +266,5 @@ $(document).ready(function($) {
 			}
 		});
 	}
+	*/
 });

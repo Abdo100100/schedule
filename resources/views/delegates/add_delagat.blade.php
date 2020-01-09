@@ -11,7 +11,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-8 offset-lg-2">
-                        <form method="POST" action="{{ route('doctors.store')}}" enctype="multipart/form-data">
+                        <form method="POST" action="{{ route('doctors.store')}}">
 
 @csrf
                             <div class="row">
@@ -48,7 +48,7 @@
                                     <div class="form-group">
                                         <label>Date of Birth</label>
                                         <div class="cal-icon">
-                                            <input name="date" type="date" class="form-control datetimepicker">
+                                            <input name="date" type="text" class="form-control datetimepicker">
                                         </div>
                                     </div>
                                 </div>
@@ -57,32 +57,17 @@
 										<label class="gen-label">Gender:</label>
 										<div class="form-check-inline">
 											<label class="form-check-label">
-												<input value="Male" type="radio" name="gender" class="form-check-input">Male
+												<input  type="radio" name="gender" class="form-check-input">Male
 											</label>
 										</div>
 										<div class="form-check-inline">
 											<label class="form-check-label">
-												<input value="Female" type="radio" name="gender" class="form-check-input">Female
+												<input type="radio" name="gender" class="form-check-input">Female
 											</label>
 										</div>
 									</div>
                                 </div>
-
-
-                                <div class="col-sm-12">
-                                    <div class="row">
-                                        <div class="col-sm-12">
-                                            <div class="form-group">
-                                                <label>Specialization</label>
-                                                <input name="specialization" type="text" class="form-control ">
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-
-                                								<div class="col-sm-12">
+								<div class="col-sm-12">
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="form-group">
